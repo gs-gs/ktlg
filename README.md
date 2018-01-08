@@ -12,7 +12,11 @@ Ensure that you are logged in to Slack with permissions to the workspace of inte
 
 <details><summary><b>Extra permissions info</b></summary>
   
-Default permissions in Slack allow any member of the workspace to install an app. We recommend changing this setting to only allow owners to install apps. To do this:
+Default permissions in Slack allow any member of the workspace to install an app. We recommend changing this setting to only allow owners to install apps. 
+
+**Note:** The application need only be installed into a workspace **once**, not once per user
+
+To do this:
  - click on the **name of your workspace then workspace settings**. This opens a browser tab
  - Under the Permissions tab, scroll down to **Apps & Custom Integrations**, and select **Manage permissions for apps and integrations in the App Directory**
  - Turn on **Approved Apps**  
@@ -50,11 +54,9 @@ Doing these should cover basic set-up:
 After installing the app:
  - Create a channel for the monitoring
  - Install and set up an app to monitor your service
- - Invite the ktlg bot to the channel using /invite @ktgl-int
+ - Invite the ktlg bot to the channel using /invite @ktlg-int
  - To associate this channel with a particular product and/or environment, direct message the bot and use the assign channel command
 ## Setting up a chat channel
 To facilitate two-way communication with the ktlg team directly through Slack:
  - Create a channel and invite the bot
- - Send a message in the channel with your full workspace prefix (as in the url) and the full channel name and request that the channel become a chat channel  
-
-   Dled: Not sure if you can get the bot to pull that info from the database of its active replications, or if it needs to be articulated. Also probably need a better method than "let us know using the channel", but it can be a placeholder
+ - Post a message in the channel requesting that the channel become a chat channel  
