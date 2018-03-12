@@ -40,8 +40,8 @@ For KTLG to be any use you need to invite the bot to monitor specific channels.
 # KTLG use
 If you forget your options, you can always ask the bot.  
 - Go to the Apps area on the left hand menu
-- If ktlg-int is not displayed there, click the **plus** symbol and select ktlg-integration
-- Click on ktlg-int, just as if you were sending a direct message to a person
+- If ktlg is not displayed there, click the **plus** symbol and select ktlg
+- Click on ktlg, just as if you were sending a direct message to a person
 - type `help` to see a summary of the commands available to you
 - type `help {command name}` to see a description of what the command does, where {command name} is from the list displayed from the above `help` command
 ## Initial Basic Set-up
