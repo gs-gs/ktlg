@@ -5,7 +5,7 @@ KTLG (Keep The Lights Green) is a support product and arrangement to support GoS
 ## Slack app
 Ensure that you are logged in to Slack with permissions to the workspace of interest  
 
-- Go to the URL https://slack-integration.mitm.ktlg.io
+- Go to the URL https://slack.mitm.ktlg.io
 - Click the **Add to Slack** button
 - In the top right, select the workspace
 - Client **Authorize**
@@ -25,8 +25,8 @@ To do this:
 </details>
 
 ## Github app
-Ensure that you are logged in to Github with owner permissions to the workspace of interest
-- Go to the URL https://github.com/apps/ktlg-integration
+Ensure that you are logged in to Github with owner permissions to the organisation of interest
+- Go to the URL https://github.com/apps/ktlg
 - Click the **Install** button
 - Select **Only select repositories**
 - Select the appropriate repositories.  Note: typing a partial name in the textbox under **Only select repositories** will display the matching repositories below
