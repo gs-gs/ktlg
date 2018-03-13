@@ -42,6 +42,13 @@ After installing the app:
 To facilitate two-way communication with the ktlg team directly through Slack:
  - Create a channel and invite the bot
  - Post a message in the channel requesting that the channel become a chat channel eg `[=here] Please make this a chat channel` 
+## Within slack
+KTLG enables replication within your workspace as well. This would enable you to create an escalation channel to notify internal personnel on an error, or if a message contains some specific word or phrase. The filtering is achieved by evaluating a regular expression against the message contents. If a regular expression is not supplied all messages are replicated
+
+To implement this, in a direct message to @ktlg
+- `replicate {local channel name} {destination workspace name} {destination channel name} {RegExp to filter messages}`
+
+This same functionality will allow you to replicate messages to other workspaces. For example if you had workspaces allocated to projects, a program manager may like to replicate key messages to a workspace they monitor
 </details>
 
 ## Github app
@@ -51,6 +58,14 @@ Ensure that you are logged in to Github with owner permissions to the organisati
 - Select **Only select repositories**
 - Select the appropriate repositories.  Note: typing a partial name in the textbox under **Only select repositories** will display the matching repositories below
 - Click the **Install** button
+
+<details><summary><b>Extra setup options</b></summary>
+
+## Within github product ticket repos
+When you installed the KTLG github component it will have automatically loaded the standard KTLG labels. As these labels are being continuously extended (although always within the established patterns) due to new products/environments/etc, you may wish to update your labels. 
+
+This can be achieved at any time by adding the special label `ktlg-labels`. It doesn't matter what colour you select, the standard colour codes for KTLG labels will be applied.  **Note** this will only add labels you to not already have defined.
+</details>
 
 # KTLG activation
 For KTLG to be any use you need to invite the bot to monitor specific channels.
