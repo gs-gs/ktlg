@@ -80,9 +80,14 @@ If you forget your options, you can always ask the bot.
 - Click on ktlg, just as if you were sending a direct message to a person
 - type `help` to see a summary of the commands available to you
 - type `help {command name}` to see a description of what the command does, where {command name} is from the list displayed from the above `help` command
+
 ## Common actions
 * **[Ask a DevOp a question](ChatChannel.md)**
-* **[Raise a DevOps task](CreateTask.md)**
+* **[Create a DevOps task](CreateTask.md)**
 * **[Raise an incident](ReportIncident.md)**
 * **[Supply Feedback](SupplyFeedback.md)**
+
+## Lifecycles
+* **[Incident Lifecycle](IncidentLifecycle.md)**
+* **[Task Lifecycle](TaskLifecycle.md)**
  
