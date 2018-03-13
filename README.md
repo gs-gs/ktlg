@@ -24,26 +24,8 @@ To do this:
    This setting allows a workspace owner to select apps that Members are then able to install at will, as well as allowing owners to install any apps they wish 
 </details>
 
-## Github app
-Ensure that you are logged in to Github with owner permissions to the organisation of interest
-- Go to the URL https://github.com/apps/ktlg
-- Click the **Install** button
-- Select **Only select repositories**
-- Select the appropriate repositories.  Note: typing a partial name in the textbox under **Only select repositories** will display the matching repositories below
-- Click the **Install** button
+<details><summary><b>Extra setup options</b></summary>
 
-# KTLG activation
-For KTLG to be any use you need to invite the bot to monitor specific channels.
-- Log into Slack
-- In a channel you want monitored by KTLG type `/invite @ktlg`
-
-# KTLG use
-If you forget your options, you can always ask the bot.  
-- Go to the Apps area on the left hand menu
-- If ktlg is not displayed there, click the **plus** symbol and select ktlg
-- Click on ktlg, just as if you were sending a direct message to a person
-- type `help` to see a summary of the commands available to you
-- type `help {command name}` to see a description of what the command does, where {command name} is from the list displayed from the above `help` command
 ## Initial Basic Set-up
 Doing these should cover basic set-up:
  - Assign the workspace to yourself (and optionally a product or environment) using the assign workspace command
@@ -60,3 +42,32 @@ After installing the app:
 To facilitate two-way communication with the ktlg team directly through Slack:
  - Create a channel and invite the bot
  - Post a message in the channel requesting that the channel become a chat channel eg `[=here] Please make this a chat channel` 
+</details>
+
+## Github app
+Ensure that you are logged in to Github with owner permissions to the organisation of interest
+- Go to the URL https://github.com/apps/ktlg
+- Click the **Install** button
+- Select **Only select repositories**
+- Select the appropriate repositories.  Note: typing a partial name in the textbox under **Only select repositories** will display the matching repositories below
+- Click the **Install** button
+
+# KTLG activation
+For KTLG to be any use you need to invite the bot to monitor specific channels.
+- Log into Slack
+- In a channel you want monitored by KTLG type `/invite @ktlg`
+
+# KTLG use
+## Help
+If you forget your options, you can always ask the bot.  
+- Go to the Apps area on the left hand menu
+- If ktlg is not displayed there, click the **plus** symbol and select ktlg
+- Click on ktlg, just as if you were sending a direct message to a person
+- type `help` to see a summary of the commands available to you
+- type `help {command name}` to see a description of what the command does, where {command name} is from the list displayed from the above `help` command
+## Common actions
+* **[Ask a DevOp a question](ChatChannel.md)**
+* **[Raise a DevOps task](CreateTask.md)**
+* **[Raise an incident](ReportIncident.md)**
+* **[Supply Feedback](SupplyFeedback.md)**
+ 
