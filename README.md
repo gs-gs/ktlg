@@ -35,7 +35,7 @@ Ensure that you are logged in to Github with owner permissions to the organisati
 # KTLG activation
 For KTLG to be any use you need to invite the bot to monitor specific channels.
 - Log into Slack
-- In a channel you want monitored by KTLG type `/invite @ktlg-int`
+- In a channel you want monitored by KTLG type `/invite @ktlg`
 
 # KTLG use
 If you forget your options, you can always ask the bot.  
@@ -54,9 +54,9 @@ Doing these should cover basic set-up:
 After installing the app:
  - Create a channel for the monitoring
  - Install and set up an app to monitor your service
- - Invite the ktlg bot to the channel using /invite @ktlg-int
+ - Invite the ktlg bot to the channel using /invite @ktlg
  - To associate this channel with a particular product and/or environment, direct message the bot and use the assign channel command
 ## Setting up a chat channel
 To facilitate two-way communication with the ktlg team directly through Slack:
  - Create a channel and invite the bot
- - Post a message in the channel requesting that the channel become a chat channel  
+ - Post a message in the channel requesting that the channel become a chat channel eg `[=here] Please make this a chat channel` 
