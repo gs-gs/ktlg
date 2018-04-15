@@ -8,7 +8,9 @@ An incident progresses through a lifecycle of
 * Evaluation of a potential incident by KTLG personnel
 * Resolution at point of first contact for procedural issues (eg not prefixing an in-channel command with @ktlg)
 * Creation of a new incident or joining to an existing incident (github ticket). Note a KTLG github ticket will be replicated to the assigned tenant/product/environment repo
-* Assigning github ticket to appropriate DevOps resource
+* {For devops related incidents} Assigning github ticket to appropriate DevOps resource
+* {For project related incidents} The tech lead will assign to the appropriate project resource
+* {For third party related incidents} TODO
 * Work will be done to identify and rectify the incident
 * Once resolved the github ticket will be closed with a closure comment summarising the rectification
 * All interested parties will receive a closure notification as a reply to the initiating message
@@ -18,4 +20,3 @@ Out of process activities include:
 * Adding comments to an incident
    * This can be through the _add comment_ slack command; or 
    * Directly into your (appropriate) github repo on the replicated ticket, which will then replicate the comment to the KTLG github ticket
-
